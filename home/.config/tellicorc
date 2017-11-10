@@ -1,0 +1,152 @@
+[Data Source 0]
+Custom Fields=imdb
+Fetch Images=true
+Host=
+Max Cast=10
+Name=Internet Movie Database
+Type=1
+UpdateOverwrite=true
+Uuid={bb3d34ad-11c9-46f9-bb19-2eb7f0b5bbeb}
+
+[Data Source 1]
+Custom Fields=
+Format=mods
+Host=z3950.loc.gov
+Name=Library of Congress (US)
+Path=/voyager
+Port=7090
+Type=3
+UpdateOverwrite=false
+Uuid={1ebf8050-8e79-4da1-a872-64a09b45a43a}
+
+[Data Source 10]
+Custom Fields=
+Locale=en
+Name=TheMovieDB.org
+Type=18
+UpdateOverwrite=false
+Uuid={bc4527ba-e40c-469e-b621-cc88d42e06ad}
+
+[Data Source 11]
+Custom Fields=
+Name=Open Library
+Type=21
+UpdateOverwrite=false
+Uuid={d8550e82-bd5e-45e5-9108-6db9e4f563a1}
+
+[Data Source 12]
+Custom Fields=
+Name=Google Book Search
+Type=29
+UpdateOverwrite=false
+Uuid={70e36a63-ffb2-4917-8a3d-7a304310445a}
+
+[Data Source 13]
+Custom Fields=
+Name=The Open Movie Database
+Type=44
+UpdateOverwrite=false
+Uuid={ab1d08ee-d66f-421a-82d0-2b22e649af83}
+
+[Data Source 2]
+Custom Fields=
+Name=ISBNdb.com
+Type=9
+UpdateOverwrite=false
+Uuid={22cb680b-d0c0-4c36-a94f-7d1846b49ccf}
+
+[Data Source 3]
+Custom Fields=
+Name=AnimeNfo.com
+Type=7
+UpdateOverwrite=false
+Uuid={43199480-1d06-416c-b681-fc194afe9822}
+
+[Data Source 4]
+Custom Fields=
+Name=arXiv.org
+Type=13
+UpdateOverwrite=false
+Uuid={ee0efaa0-7850-49bf-be9d-5e144b885e6c}
+
+[Data Source 5]
+Custom Fields=
+Name=Google Scholar
+Type=15
+UpdateOverwrite=false
+Uuid={aa990c3a-1295-43cd-8579-8d9a20a1f2c2}
+
+[Data Source 6]
+Custom Fields=
+Name=MusicBrainz
+Type=19
+UpdateOverwrite=false
+Uuid={3284bbe5-4687-4407-8dc5-e99a7ab9f466}
+
+[Data Source 7]
+Custom Fields=
+Name=BiblioShare
+Type=27
+UpdateOverwrite=false
+Uuid={ad4f0f3d-a498-479e-88dd-e3593ec57a43}
+
+[Data Source 8]
+Custom Fields=
+Name=TheGamesDB.net
+Type=38
+UpdateOverwrite=false
+Uuid={ab3a5272-24fa-466e-aef7-af717b1448d5}
+
+[Data Source 9]
+Custom Fields=
+Name=BoardGameGeek
+Type=42
+UpdateOverwrite=false
+Uuid={a290fe97-f023-42a4-9a0c-b76572cdafdf}
+
+[Data Sources]
+Sources Count=14
+
+[EditImage]
+editor=Ristretto Image Viewer
+
+[General Options]
+Enable Webcam=false
+Image Location=ImagesInLocalDir
+Last Open File=file:///home/bgdawes/Documents/tellico/dvd-library
+Max Icon Size=308
+
+[HTML Settings]
+AutomaticDetectionLanguage=1
+
+[Main Window Options]
+Height 1080=1021
+Main Splitter Sizes=241,1647
+Secondary Splitter Sizes=385,535
+State=AAAA/wAAAAD9AAAAAAAAB2YAAAOeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBjAG8AbABsAGUAYwB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAABfv////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1920=1894
+
+[Options - video]
+ColumnNames=title,director,volume,disc,season,running-time,cdate,mdate
+ColumnOrder=0,9,17,18,20,22,42,43
+ColumnWidths=540,261,66,69,121,73,134,361
+Entry Template=Video-large-cover
+Group By=season
+Prev2SortColumn=17
+PrevSortColumn=18
+SortColumn=17
+SortOrder=0
+Template Base Color=35,38,41
+Template Text Color=255,255,255
+
+[Recent Dirs]
+image/home/bgdawes[$e]=$HOME/Pictures/temp-dvd-covers,$HOME/Documents
+open[$e]=$HOME/Documents/tellico,$HOME/Documents
+
+[Recent Files]
+File1[$e]=$HOME/Documents/tellico/dvd-library
+Name1[$e]=dvd-library
+
+[TipOfDay]
+RunOnStart=false
