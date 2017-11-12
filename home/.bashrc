@@ -10,6 +10,7 @@ PS1='[\u@\h \W]\$ '
 
 PATH=$PATH:~/bin
 alias ripmoofie='dvdbackup -i /dev/sr0 -o /home/xfcebspwm/Videos/dvd-copiez -M'
+alias shutdown='shutdown -h now'
 
 export EDITOR='nano'
 export VISUAL='nano'
