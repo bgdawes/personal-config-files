@@ -1,8 +1,13 @@
+Height 1080=1021
+State=AAAA/wAAAAD9AAAAAAAAB2YAAAOeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBjAG8AbABsAGUAYwB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAABfv////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1920=1894
+
 [Data Source 0]
 Custom Fields=imdb
 Fetch Images=true
 Host=
-Max Cast=10
+Max Cast=5
 Name=Internet Movie Database
 Type=1
 UpdateOverwrite=true
@@ -122,21 +127,21 @@ AutomaticDetectionLanguage=1
 [Main Window Options]
 Height 1080=1021
 Main Splitter Sizes=241,1647
-Secondary Splitter Sizes=385,535
+Secondary Splitter Sizes=395,525
 State=AAAA/wAAAAD9AAAAAAAAB2YAAAOeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAIgBjAG8AbABsAGUAYwB0AGkAbwBuAFQAbwBvAGwAQgBhAHIBAAABfv////8AAAAAAAAAAA==
 ToolBarsMovable=Disabled
 Width 1920=1894
 
 [Options - video]
-ColumnNames=title,director,volume,disc,season,running-time,cdate,mdate
-ColumnOrder=0,9,17,18,20,22,42,43
-ColumnWidths=540,261,66,69,121,73,134,361
+ColumnNames=title,year,director,running-time,volume,disc,procurement,source,keyword,screened,season,cdate
+ColumnOrder=0,18,5,20,8,9,12,13,19,14,11,21
+ColumnWidths=438,72,172,73,66,69,132,105,158,106,121,113
 Entry Template=Video-large-cover
 Group By=season
-Prev2SortColumn=17
-PrevSortColumn=18
-SortColumn=17
-SortOrder=0
+Prev2SortColumn=15
+PrevSortColumn=17
+SortColumn=15
+SortOrder=1
 Template Base Color=35,38,41
 Template Text Color=255,255,255
 
